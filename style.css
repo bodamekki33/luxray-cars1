@@ -1,0 +1,54 @@
+/*------------------------ Start of Navbar ---------------------------*/
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: burlywood;
+  height: 50px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+nav a:hover {
+  background-color: rgb(122, 110, 110);
+  color: #333;
+  transition: color 0.7;
+  transition: background-color0.7;
+}
+.active {
+  background-color: rgb(170, 98, 98);
+  color: #333;
+  font-weight: bolder;
+  transition: color 0.7;
+  transition: background-color0.7;
+}
+@media (max-width: 400px) {
+  nav {
+    flex-direction: column;
+    height: 100px;
+  }
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: burlywood;
+  height: 50px;
+}
+/*------------------------ End of Navbar ---------------------------*/
+h2 {
+  text-align: center;
+}
+img {
+  height: 200px;
+}
